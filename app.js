@@ -17,6 +17,7 @@ btns.forEach( (btn) => {
         else{
             count = 0;
         }
+        // change text color
         if (count === 0) {
             value.style.color = 'black';
         }
@@ -26,6 +27,7 @@ btns.forEach( (btn) => {
         else {
             value.style.color = 'green';
         }
+        // assign count to #value span
         value.textContent = count;
         
     });
